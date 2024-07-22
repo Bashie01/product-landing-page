@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+div {
+    display: block;
+}
+
+body {
+    background-color: #eeee;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 10px;
+}
+
+section {
+    display: block;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+#features {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/* #pricing {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+#pricing {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* vertical-align */
+    align-items: center;
+    /* causes flex items to wrap */
+    flex-wrap: wrap;
+}
+
+header {
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+}
+
+#header-logo {
+    width: 50%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    margin-left: 20px;
+}
+
+ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#bronze,
+#silver,
+#gold {
+    border: 1px solid black;
+    background-color: rgb(226, 215, 215);
+}
+
+.list-desc {
+    padding: 5px 50px 5px 50px;
+
+}
+
+/* .price-header{
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+} */
+
+.price-header {
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* adding width to the price-header class */
+    width: 100%;
+}
+
+/* .Product {
+    text-align: center;
+    justify-content: center;
+} */
+
+/* change class name to lower case */
+.product {
+    /* added flex to the product card */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* changed the justify-content ie verticle alignment to space-between */
+    justify-content: space-between;
+    /* changed the horz align to center */
+    align-items: center;
+    /* added height and margin */
+    height: 300px;
+    margin: 15px;
+}
+
+/* added margin to the button */
+.btn {
+    margin: 20px;
+}
+
+.price-bronze {
+    background-color: rgb(153, 99, 0);
+}
+
+.price-silver {
+    background-color: rgb(143, 135, 121);
+}
+
+.price-gold {
+    background-color: rgb(221, 145, 13);
+}
+
+
+footer {
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+#bronze {
+    margin-right: 15px;
+}
+
+#silver {
+    margin-right: 15px;
+}
+
+@media only screen and(max-width: 720px) {
+    body {
+        font-size: 1rem;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
